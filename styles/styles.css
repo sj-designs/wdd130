@@ -15,4 +15,25 @@ img {
     padding: 2px;   
     box-shadow: 0 0 30px gray;
 }
-p { padding: 10px;}
+p { padding: 0px;}
+main {max-width: 600px}
+aside {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: rgb(77, 72, 64);
+    color:rgb(255, 255, 255);
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+main img{
+    width: 150px;
+    height: auto;
+}
+footer {
+    margin-top: 2px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
