@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans&family=Sigmar&display=swap');
 :root {
-    --primary-color:#263D42;
+    --primary-color : #263D42;
     --secondary-color: #4D8B31;
     --accent1-color:#FF8811;
     --accent2-color:#5EB1BF;
@@ -20,9 +20,9 @@
         padding: 20px;
     }
 
-    h1,h2,h3,h4,h5,h6 {
+    h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color:var(--primary-color);
+    color : var(--primary-color);
 }
 
     header {
