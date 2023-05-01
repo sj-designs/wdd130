@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans&family=Sigmar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans&family=Sigmar&display=swap");
 :root {
     --primary-color : #263D42;
     --secondary-color: #4D8B31;
@@ -48,7 +48,7 @@
     }
 
     nav a:link, nav a:visited {
-        color: var(nav-link-color);
+        color: var(--nav-link-color);
     }
 
     nav a:hover {
