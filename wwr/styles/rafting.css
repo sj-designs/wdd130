@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka:wght@600&family=PT+Sans&family=Sigmar&display=swap');
+:root {
+    --primary-color : #263D42;
+    --secondary-color: #a3f07f;
+    --accent1-color:#FF8811;
+    --accent2-color:#5EB1BF;
+
+    --heading-font:'Fredoka', sans-serif;
+    --paragraph-font:'PT Sans', sans-serif;
+
+    --nav-background-color: #F5F5F5;
+    --nav-link-color:#5EB1BF;
+    --nav-hover-link-color:#FF8811;
+    --nav-hover-background-color:#a3f07f;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+font-family: var(--heading-font);
+color : var(--accent1-color);
+font-size: 50px;
+} 
+
+header {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+p {
+    padding:25px ;
+}
+.hero {
+    position:relative;
+    
+}
+.hero article img {
+    float: right;
+    width:30%;
+}  
+.hero h1  {
+    position: absolute;
+    top: 20px;
+    background-color: #ffffff;
+}
+.hero article {
+    position:absolute;
+    top:100px;
+    background-color: #06060687;
+    color:#ffffff;
+   
+}
+
+.hero img {
+    display: block; 
+    width: 100%;
+    height: auto;  
+} 
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
+}

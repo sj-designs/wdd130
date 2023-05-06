@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans&family=Sigmar&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka:wght@600&family=PT+Sans&family=Sigmar&display=swap');
 :root {
     --primary-color : #263D42;
-    --secondary-color: #4D8B31;
+    --secondary-color: #a3f07f;
     --accent1-color:#FF8811;
     --accent2-color:#5EB1BF;
 
@@ -11,7 +11,7 @@
     --nav-background-color: #F5F5F5;
     --nav-link-color:#5EB1BF;
     --nav-hover-link-color:#FF8811;
-    --nav-hover-background-color:#4D8B31;
+    --nav-hover-background-color:#a3f07f;
 }
 
     body {
@@ -27,7 +27,7 @@
 
     header {
         padding: 20px;
-        background-color: #4D8B31;
+        background-color: #a3f07f;
     }
 
     p {
