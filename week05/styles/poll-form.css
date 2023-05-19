@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:rgba(0, 0, 255, 0.734);
+}
+
+header {
+    margin:auto;
+    width: auto;
+}
+h1 {
+    margin: 1.3rem;
+    font-size:30px;
+    text-align: center;
+}
+
+form {
+    width:650px;
+    margin:auto;
+    padding:2rem;
+    border:1.5px solid black;
+    border-radius: 0.5rem;
+    background-color: rgba(185, 181, 181, 0.935);
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap:.5rem;
+    margin: 1rem;
+    border:1px solid rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color:rgb(255, 255, 255);
+    font-style: bold;
+    font-size: 30px;
+}
+
+label, input, button, select, textarea {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px ;
+    color:rgb(1, 1, 1)
+
+}
+label {
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+.place{
+    text-align:center;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size:1.1rem ;
+    
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    width:150px;
+    margin: 0 auto;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    background-color: coral;
+    border-radius: .75rem;
+    padding:1rem;
+    font-size: 1.2rem;
+    text-align: center; 
+    display:block;
+    
+    /* display: flex;
+    align-items: center;
+    justify-items: center; */
+}
+
+button:hover {
+    background-color: rgb(157, 192, 223);
+}
+
+footer {
+    margin: 1rem;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color:#777;
+    border-top: 1px solid #ccc;
+}
+
+#browser{
+    width:150px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.form-item.column2 input {
+    width: 280px;
+}
+
+.column1 {
+    grid-template-columns: 2fr .5fr;
+    margin: 0.5rem 0;
+    padding:10px 0px ;
+}
+
+.column2 {
+    grid-template-columns: 4fr 1fr;
+    padding:10px 0px ;
+}
+/* FEEDBACK BOX */
+/* #feedback {
+    text-align: center;
+    font-size: 50px; }*/
