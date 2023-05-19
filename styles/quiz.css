@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:rgba(0, 0, 255, 0.734);
+}
+
+header {
+    margin:auto;
+    width: auto;
+}
+h1 {
+    margin: 1.3rem;
+    font-size:30px;
+    text-align: center;
+}
+
+form {
+    width:650px;
+    margin:auto;
+    padding:2rem;
+    border:1.5px solid black;
+    border-radius: 0.5rem;
+    background-color: rgba(221, 231, 239, 0.935);
+    display: grid;
+}
+
+.paddingB
+{
+    margin-bottom: 20px;
+}
+
+.declaration {
+    margin:auto;
+    background-color: rgb(47, 47, 47);
+    color:azure;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+label, input, button, select, textarea {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px ;
+    color:rgb(1, 1, 1)
+
+}
+
+span{
+    font-weight:bold;
+    color:rgb(34, 73, 246);
+}
+
+label {
+    text-align: left;
+    padding-right: 0.5rem;
+    padding-bottom: 20px;
+}
+
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size:1.1rem ;
+    
+}
+
+button {
+    color:white;
+    width:98%;
+    margin: 0 auto;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(9, 28, 243);
+    border-radius: .75rem;
+    padding:1rem;
+    font-size: 1.2rem;
+    text-align: center; 
+    display:block;
+    
+}
+
+button:hover {
+    background-color: rgb(234, 139, 15);
+}
+
+footer {
+    width:650px;
+    margin: auto;
+    padding:0.50rem;
+    text-align: center;
+}
