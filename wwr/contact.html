@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Stephanie Jimenez</title>
+    <meta name="description" content="The rafting site plan includes the site purpose, the target audience,branding information, and style guide for the course website project">
+    <meta name="author" content="Stephanie Jimenez">
+</head>
+<body>
+    <header>
+        <img src="images/rafting_logo.svg" alt="Rafting Site Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Trips</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+            <h1>Fun 4 All Rafting Adventures</h1>
+                <p> 3100 Adventure Lane. Jaco, Costa Rica, Central America</p>
+                <p> Office: 011-506-253-58-8952</p>
+                <p> WhatsApp: 011-506-253-36-9687</p>
+                <p> fun4allrafting@gmail.com</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31470.090178242146!2d-84.64360728044566!3d9.615812459365062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa1c785708285f3%3A0xf23199ea7a312616!2sJac%C3%B3%20Point%20of%20Return!5e0!3m2!1sen!2sus!4v1684641995241!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <section>
+                <h2>Meet the team</h2>
+                <div class="flexbox-container">
+                    <figure>
+                        <img class="flexbox-item flexbox-item-1" src= "images/Carla.jpg" alt = "Smiling girl employee"> <figcaption> 'Carla'- office manager</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="flexbox-item flexbox-item-2" src= "images/Luis.jpg" alt = "Smiling man employee"> <figcaption> 'Luis'- tour guide</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="flexbox-item flexbox-item-3" src= "images/Shawn.jpg" alt = "Smiling man employee"> <figcaption> 'Shawn'- tour guide</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <form>
+                <fieldset>
+                    <legend>Personal Information:</legend>
+                <div class="form-item column2">
+                    <label>Full Name: <input type="text" name="fullname"></label>
+                </div>
+                <div class="form-item column2">
+                    <label>Email: <input type="email"  name="useremail"></label> 
+                </div>           
+                </fieldset>
+                <fieldset>
+                    <legend>Tell us more:</legend>
+                <div class="form-item column1">
+                    <label for="purpose">What brings you to our website today?</label>
+                    <select id="purpose" name="purpose">
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="reservation">Reservation Question</option>
+                        <option value="suggestion">Website Suggestion</option>
+                    </select>
+                </div>
+                    <label class = "place" for="message">What would you like to tell us today?:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                
+                <div class="form-item column1">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+            </fieldset>
+                <button type="submit">Submit </button>
+            </form>
+    </main>
+    <footer>
+        <p class="copyright"> ©2023 🛶 Fun 4 All Rafting Adventures 🛶  Stephanie Jimenez 🛶 WDD 130</p>
+        <nav >
+            <a href="https://facebook.com">
+                <img src="images/fb_logo.png" alt="Facebook" >
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/insta_logo.png" alt="Instagram" >
+            </a>   
+            <a href="https://whatsapp.com">
+                <img src="images/whatsapp_logo.png" alt="WhatsApp" >
+            </a> 
+        </nav>      
+    </footer>
+</body>
+</html>

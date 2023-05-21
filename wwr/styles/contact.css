@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka:wght@600&family=PT+Sans&family=Sigmar&display=swap');
+:root {
+    --primary-color : #263D42;
+    --secondary-color: #a3f07f;
+    --accent1-color:#FF8811;
+    --accent2-color:#5EB1BF;
+
+    --heading-font:'Fredoka', sans-serif;
+    --paragraph-font:'PT Sans', sans-serif;
+
+    --nav-background-color: #F5F5F5;
+    --nav-link-color:#5EB1BF;
+    --nav-hover-link-color:#FF8811;
+    --nav-hover-background-color:#1c4aab;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+body header img {
+    margin: 0 0.25rem 0 1rem;
+	width: 200px;
+	height: auto;
+}
+
+
+ h1, h2, h3, h4, h5, h6 {
+font-family: var(--heading-font);
+color : var(--accent1-color);
+font-size: 50px;
+} 
+
+header {
+    padding: 10px;
+    background-color: #1d6c7e7a;
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+    align-items: center;
+    max-width: 1000px;
+    
+    
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    margin: 1px; 
+    
+
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 75px;
+}
+p {
+    padding:15px ;
+    font-size: 25px;
+    text-align:left ;
+    color:black;
+}
+
+    
+
+/*photo gallery at bottom */
+.flexbox-container {
+    display:flex;
+    align-content:space-around;
+    align-items:flex-start;
+}
+
+.flexbox-item {
+    margin: 10px;
+    border: 10px solid #FF8811;
+}
+
+.flexbox-item-1, .flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5{
+width: auto;
+height: 280px;
+}
+
+
+
+/*FORM*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:rgba(0, 0, 255, 0.734);
+}
+
+header {
+    margin:auto;
+    width: auto;
+}
+h1 {
+    margin: 1.3rem;
+    font-size:50px;
+    text-align: left;
+}
+
+form {
+    width:650px;
+    margin:auto;
+    padding:2rem;
+    border:1.5px solid black;
+    border-radius: 0.5rem;
+    background-color: rgba(155, 239, 116, 0.935);
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap:.5rem;
+    margin: 1rem;
+    border:1px solid rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color:rgb(25, 25, 219);
+    font-style:inherit;
+    font-size: 30px;
+}
+
+label, input, button, select, textarea {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5px ;
+    color:rgb(1, 1, 1)
+
+}
+label {
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+.place{
+    text-align:center;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size:1.1rem ;
+    
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    width:150px;
+    margin: 0 auto;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    background-color: coral;
+    border-radius: .75rem;
+    padding:1rem;
+    font-size: 1.2rem;
+    text-align: center; 
+    display:block;
+}
+
+button:hover {
+    background-color: rgb(77, 164, 240);
+}
+
+footer {
+    margin: 1rem;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color:#777;
+    border-top: 1px solid #cccccc;
+}
+
+#browser{
+    width:150px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.form-item.column2 input {
+    width: 280px;
+}
+
+.column1 {
+    grid-template-columns: 2fr .5fr;
+    margin: 0.5rem 0;
+    padding:10px 0px ;
+}
+
+.column2 {
+    grid-template-columns: 4fr 1fr;
+    padding:10px 0px ;
+}
+
+/*photo gallery at bottom */
+.flexbox-container {
+    display:flex;
+    align-content:space-around;
+    align-items:flex-start;
+}
+
+.flexbox-item {
+    margin: 20px;
+    border: 10px solid #FF8811;
+}
+
+.flexbox-item-1, .flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5{
+width: auto;
+height: 280px;
+}
+
+figure {
+    padding: 50px;
+    margin: auto;
+}
+
+/*Footer info*/
+
+.copyright{
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+    max-width: 1000px;
+    font-size:small;
+}
+
+footer img{
+    width:20%;
+   
+}
