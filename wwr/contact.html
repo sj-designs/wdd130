@@ -54,12 +54,14 @@
                 <fieldset>
                     <legend>Tell us more:</legend>
                 <div class="form-item column1">
-                    <label for="purpose">What brings you to our website today?</label>
-                    <select id="purpose" name="purpose">
-                        <option value="inquiry">General Inquiry</option>
-                        <option value="reservation">Reservation Question</option>
-                        <option value="suggestion">Website Suggestion</option>
-                    </select>
+                    <label>What brings you to our website today?:</label>
+                      <input type="radio" name="gen_inquiry" >
+                      <label for="gen_inquiry">General Inquiry</label>
+                      <input type="radio" name="res_question" >
+                      <label for="res_question">Reservation Question</label><br>
+                      <input type="radio"  name="web_suggest" >
+                      <label for="web_suggest">Website Suggestion</label>
+
                 </div>
                     <label class = "place" for="message">What would you like to tell us today?:</label>
                     <textarea id="message" name="message" rows="4"></textarea>
