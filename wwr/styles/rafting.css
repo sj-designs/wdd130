@@ -144,7 +144,7 @@ p {
 
  .flexbox-item-1, .flexbox-item-2, .flexbox-item-3, h4 {
 width:auto;
-height: 280px;
+height: 75px;
 font-size: 20px;
 } 
 .flexbox-container h2{
@@ -328,7 +328,7 @@ footer {
 
 figure {
   padding: 50px;
-  margin: auto;
+  margin: 20px;
 }
 
 /*Footer info*/
