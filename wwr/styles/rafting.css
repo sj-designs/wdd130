@@ -31,6 +31,10 @@ color : var(--accent1-color);
 font-size: 50px;
 } 
 
+.hero h1 {
+  color:#ffea28
+}
+
 header {
     padding: 10px;
     background-color: #1d6c7e7a;
