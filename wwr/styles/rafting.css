@@ -102,7 +102,14 @@ p {
 .hero h1  {
     position: absolute;
     top: 20px;
-    left: 120px;
+    left: 120px;}
+
+.hero h2  {
+      position: absolute;
+      top: 200px;
+      left: 120px;
+      font-size: 50px;
+      color:#0ca8eb
     
 }
 .hero article {
@@ -113,8 +120,9 @@ p {
 }
 
 .hero img {
-    display:block; 
-    width: 100%;
+    
+    width:100%;
+   
 } 
 
 /*photo gallery at bottom */
@@ -122,6 +130,7 @@ p {
     display:flex;
     align-content:space-around;
     align-items:flex-start;
+   
 }
 
 /* .flexbox-item {
@@ -129,10 +138,11 @@ p {
     border: 10px solid #FF8811;
 } */
 
-/* .flexbox-item-1, .flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5{
+ .flexbox-item-1, .flexbox-item-2, .flexbox-item-3, h4 {
 width:auto;
 height: 280px;
-} */
+font-size: 20px;
+} 
 .flexbox-container h2{
   font-size: 40px;
   color:#2210ed
