@@ -111,14 +111,18 @@ p {
     align-items:flex-start;
 }
 
-.flexbox-item {
+/* .flexbox-item {
     margin: 10px;
     border: 10px solid #FF8811;
-}
+} */
 
-.flexbox-item-1, .flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5{
-width: auto;
+/* .flexbox-item-1, .flexbox-item-2, .flexbox-item-3, .flexbox-item-4, .flexbox-item-5{
+width:auto;
 height: 280px;
+} */
+.flexbox-container h2{
+  font-size: 40px;
+  color:#2210ed
 }
 
 /*Footer info*/
@@ -339,6 +343,8 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+
 
 /*Clean up later someday maybe
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka:wght@600&family=PT+Sans&family=Sigmar&display=swap");
